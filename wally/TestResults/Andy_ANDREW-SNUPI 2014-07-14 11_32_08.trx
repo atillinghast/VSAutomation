@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="bf4e3f81-2627-49dd-a232-553336975a23" name="Andy@ANDREW-SNUPI 2014-07-14 11:32:08" runUser="ANDREW-SNUPI\Andy" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="44b1e147-3379-4fed-b2d5-a247480be46e">
+    <Description>These are default test settings for a local test run.</Description>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Andy_ANDREW-SNUPI 2014-07-14 11_32_08" />
+    <Properties />
+  </TestSettings>
+  <Times creation="2014-07-14T11:32:08.9502654-07:00" queuing="2014-07-14T11:32:09.1207081-07:00" start="2014-07-14T11:32:09.1697411-07:00" finish="2014-07-14T11:32:21.7007030-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <WebTest name="UsingWallySupport" storage="c:\users\andy\documents\visual studio 2013\projects\wally\wally\outside\usingwallysupport.webtest" id="97e1b960-f79f-4ce6-9c8c-94713ca7c47e" persistedWebTest="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KPFdlYlRlc3QgTmFtZT0iVXNpbmdXYWxseVN1cHBvcnQiIElkPSI5N2UxYjk2MC1mNzlmLTRjZTYtOWM4Yy05NDcxM2NhN2M0N2UiIE93bmVyPSIiIFByaW9yaXR5PSIyMTQ3NDgzNjQ3IiBFbmFibGVkPSJUcnVlIiBDc3NQcm9qZWN0U3RydWN0dXJlPSIiIENzc0l0ZXJhdGlvbj0iIiBUaW1lb3V0PSIwIiBXb3JrSXRlbUlkcz0iIiB4bWxucz0iaHR0cDovL21pY3Jvc29mdC5jb20vc2NoZW1hcy9WaXN1YWxTdHVkaW8vVGVhbVRlc3QvMjAxMCIgRGVzY3JpcHRpb249IiIgQ3JlZGVudGlhbFVzZXJOYW1lPSIiIENyZWRlbnRpYWxQYXNzd29yZD0iIiBQcmVBdXRoZW50aWNhdGU9IlRydWUiIFByb3h5PSJkZWZhdWx0IiBTdG9wT25FcnJvcj0iRmFsc2UiIFJlY29yZGVkUmVzdWx0RmlsZT0iV2ViVGVzdDEuMDc4MjE5NGMtMTA3NC00ODM2LWE3NTItNWZmYjQ3ODUyNTU4LnJlYy53ZWJ0ZXN0cmVzdWx0IiBSZXN1bHRzTG9jYWxlPSIiPg0KICA8SXRlbXM+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIEd1aWQ9IjhmOTkxNTAyLTFlNjItNDljMS05MDRkLTVkMGRkMDViYTcxMSIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHA6Ly90ZXN0aW5nLndhbGx5aG9tZS5jb20vc3VwcG9ydC91c2luZy13YWxseS8iIFRoaW5rVGltZT0iMCIgVGltZW91dD0iMzAwIiBQYXJzZURlcGVuZGVudFJlcXVlc3RzPSJUcnVlIiBGb2xsb3dSZWRpcmVjdHM9IlRydWUiIFJlY29yZFJlc3VsdD0iVHJ1ZSIgQ2FjaGU9IkZhbHNlIiBSZXNwb25zZVRpbWVHb2FsPSIwIiBFbmNvZGluZz0idXRmLTgiIEV4cGVjdGVkSHR0cFN0YXR1c0NvZGU9IjAiIEV4cGVjdGVkUmVzcG9uc2VVcmw9IiIgUmVwb3J0aW5nTmFtZT0iIiBJZ25vcmVIdHRwU3RhdHVzQ29kZT0iRmFsc2UiIC8+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIEd1aWQ9IjYwNTYxODA2LTVjNTAtNDViMC1hNjZhLTNkZDQxYzRjZTEyMiIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHA6Ly9iZWFjb24tMi5uZXdyZWxpYy5jb20vMS82OWFkZTdlY2EwIiBUaGlua1RpbWU9IjAiIFRpbWVvdXQ9IjMwMCIgUGFyc2VEZXBlbmRlbnRSZXF1ZXN0cz0iVHJ1ZSIgRm9sbG93UmVkaXJlY3RzPSJUcnVlIiBSZWNvcmRSZXN1bHQ9IlRydWUiIENhY2hlPSJGYWxzZSIgUmVzcG9uc2VUaW1lR29hbD0iMCIgRW5jb2Rpbmc9Imlzby04ODU5LTEiIEV4cGVjdGVkSHR0cFN0YXR1c0NvZGU9IjAiIEV4cGVjdGVkUmVzcG9uc2VVcmw9IiIgUmVwb3J0aW5nTmFtZT0iIiBJZ25vcmVIdHRwU3RhdHVzQ29kZT0iRmFsc2UiPg0KICAgICAgPEhlYWRlcnM+DQogICAgICAgIDxIZWFkZXIgTmFtZT0iUmVmZXJlciIgVmFsdWU9Imh0dHA6Ly90ZXN0aW5nLndhbGx5aG9tZS5jb20vc3VwcG9ydC91c2luZy13YWxseS8iIC8+DQogICAgICA8L0hlYWRlcnM+DQogICAgICA8UXVlcnlTdHJpbmdQYXJhbWV0ZXJzPg0KICAgICAgICA8UXVlcnlTdHJpbmdQYXJhbWV0ZXIgTmFtZT0iYSIgVmFsdWU9IjQyMjAzMzgiIFJlY29yZGVkVmFsdWU9IjQyMjAzMzgiIENvcnJlbGF0aW9uQmluZGluZz0iIiBVcmxFbmNvZGU9IkZhbHNlIiBVc2VUb0dyb3VwUmVzdWx0cz0iRmFsc2UiIC8+DQogICAgICAgIDxRdWVyeVN0cmluZ1BhcmFtZXRlciBOYW1lPSJhcCIgVmFsdWU9IjkyMCIgUmVjb3JkZWRWYWx1ZT0iOTIwIiBDb3JyZWxhdGlvbkJpbmRpbmc9IiIgVXJsRW5jb2RlPSJGYWxzZSIgVXNlVG9Hcm91cFJlc3VsdHM9IkZhbHNlIiAvPg0KICAgICAgICA8UXVlcnlTdHJpbmdQYXJhbWV0ZXIgTmFtZT0iYmUiIFZhbHVlPSIxMzI4IiBSZWNvcmRlZFZhbHVlPSIxMzI4IiBDb3JyZWxhdGlvbkJpbmRpbmc9IiIgVXJsRW5jb2RlPSJGYWxzZSIgVXNlVG9Hcm91cFJlc3VsdHM9IkZhbHNlIiAvPg0KICAgICAgICA8UXVlcnlTdHJpbmdQYXJhbWV0ZXIgTmFtZT0iZmUiIFZhbHVlPSI0MDEiIFJlY29yZGVkVmFsdWU9IjQwMSIgQ29ycmVsYXRpb25CaW5kaW5nPSIiIFVybEVuY29kZT0iRmFsc2UiIFVzZVRvR3JvdXBSZXN1bHRzPSJGYWxzZSIgLz4NCiAgICAgICAgPFF1ZXJ5U3RyaW5nUGFyYW1ldGVyIE5hbWU9ImRjIiBWYWx1ZT0iMzI4IiBSZWNvcmRlZFZhbHVlPSIzMjgiIENvcnJlbGF0aW9uQmluZGluZz0iIiBVcmxFbmNvZGU9IkZhbHNlIiBVc2VUb0dyb3VwUmVzdWx0cz0iRmFsc2UiIC8+DQogICAgICAgIDxRdWVyeVN0cmluZ1BhcmFtZXRlciBOYW1lPSJ2IiBWYWx1ZT0iNDExLmIyOTQ2YzEiIFJlY29yZGVkVmFsdWU9IjQxMS5iMjk0NmMxIiBDb3JyZWxhdGlvbkJpbmRpbmc9IiIgVXJsRW5jb2RlPSJGYWxzZSIgVXNlVG9Hcm91cFJlc3VsdHM9IkZhbHNlIiAvPg0KICAgICAgICA8UXVlcnlTdHJpbmdQYXJhbWV0ZXIgTmFtZT0idG8iIFZhbHVlPSJZMUVBWUVGUldFQlRCVXdMWDFvYkkxZEhXVmxkSFJWTkVrQmJSaFklM0QiIFJlY29yZGVkVmFsdWU9IlkxRUFZRUZSV0VCVEJVd0xYMW9iSTFkSFdWbGRIUlZORWtCYlJoWSUzRCIgQ29ycmVsYXRpb25CaW5kaW5nPSIiIFVybEVuY29kZT0iRmFsc2UiIFVzZVRvR3JvdXBSZXN1bHRzPSJGYWxzZSIgLz4NCiAgICAgICAgPFF1ZXJ5U3RyaW5nUGFyYW1ldGVyIE5hbWU9ImYiIFZhbHVlPSIlNUIlNUQiIFJlY29yZGVkVmFsdWU9IiU1QiU1RCIgQ29ycmVsYXRpb25CaW5kaW5nPSIiIFVybEVuY29kZT0iRmFsc2UiIFVzZVRvR3JvdXBSZXN1bHRzPSJGYWxzZSIgLz4NCiAgICAgICAgPFF1ZXJ5U3RyaW5nUGFyYW1ldGVyIE5hbWU9Impzb25wIiBWYWx1ZT0iTlJFVU0uc2V0VG9rZW4iIFJlY29yZGVkVmFsdWU9Ik5SRVVNLnNldFRva2VuIiBDb3JyZWxhdGlvbkJpbmRpbmc9IiIgVXJsRW5jb2RlPSJGYWxzZSIgVXNlVG9Hcm91cFJlc3VsdHM9IkZhbHNlIiAvPg0KICAgICAgICA8UXVlcnlTdHJpbmdQYXJhbWV0ZXIgTmFtZT0icGVyZiIgVmFsdWU9IiU3QiUyMnRpbWluZyUyMjolN0IlMjJvZiUyMjoxNDA1MTAzNTk4MDU4LCUyMm4lMjI6MCwlMjJkbCUyMjoxMTk3LCUyMmRpJTIyOjE2NTUsJTIyZHMlMjI6MTY1NSwlMjJkZSUyMjoxNjc1LCUyMmRjJTIyOjE3MjYsJTIybCUyMjoxNzI4LCUyMmxlJTIyOjE3MjksJTIyZiUyMjowLCUyMmRuJTIyOjAsJTIyZG5lJTIyOjAsJTIyYyUyMjowLCUyMmNlJTIyOjAsJTIycnElMjI6MTE5NSwlMjJycCUyMjoxMTk3LCUyMnJwZSUyMjoxMjAyJTdELCUyMm5hdmlnYXRpb24lMjI6JTdCJTdEJTdEIiBSZWNvcmRlZFZhbHVlPSIlN0IlMjJ0aW1pbmclMjI6JTdCJTIyb2YlMjI6MTQwNTEwMzU5ODA1OCwlMjJuJTIyOjAsJTIyZGwlMjI6MTE5NywlMjJkaSUyMjoxNjU1LCUyMmRzJTIyOjE2NTUsJTIyZGUlMjI6MTY3NSwlMjJkYyUyMjoxNzI2LCUyMmwlMjI6MTcyOCwlMjJsZSUyMjoxNzI5LCUyMmYlMjI6MCwlMjJkbiUyMjowLCUyMmRuZSUyMjowLCUyMmMlMjI6MCwlMjJjZSUyMjowLCUyMnJxJTIyOjExOTUsJTIycnAlMjI6MTE5NywlMjJycGUlMjI6MTIwMiU3RCwlMjJuYXZpZ2F0aW9uJTIyOiU3QiU3RCU3RCIgQ29ycmVsYXRpb25CaW5kaW5nPSIiIFVybEVuY29kZT0iRmFsc2UiIFVzZVRvR3JvdXBSZXN1bHRzPSJGYWxzZSIgLz4NCiAgICAgICAgPFF1ZXJ5U3RyaW5nUGFyYW1ldGVyIE5hbWU9ImF0IiBWYWx1ZT0iVHhZREZnbExTMDQlM0QiIFJlY29yZGVkVmFsdWU9IlR4WURGZ2xMUzA0JTNEIiBDb3JyZWxhdGlvbkJpbmRpbmc9IiIgVXJsRW5jb2RlPSJGYWxzZSIgVXNlVG9Hcm91cFJlc3VsdHM9IkZhbHNlIiAvPg0KICAgICAgPC9RdWVyeVN0cmluZ1BhcmFtZXRlcnM+DQogICAgPC9SZXF1ZXN0Pg0KICA8L0l0ZW1zPg0KICA8VmFsaWRhdGlvblJ1bGVzPg0KICAgIDxWYWxpZGF0aW9uUnVsZSBDbGFzc25hbWU9Ik1pY3Jvc29mdC5WaXN1YWxTdHVkaW8uVGVzdFRvb2xzLldlYlRlc3RpbmcuUnVsZXMuVmFsaWRhdGVSZXNwb25zZVVybCwgTWljcm9zb2Z0LlZpc3VhbFN0dWRpby5RdWFsaXR5VG9vbHMuV2ViVGVzdEZyYW1ld29yaywgVmVyc2lvbj0xMC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhIiBEaXNwbGF5TmFtZT0iUmVzcG9uc2UgVVJMIiBEZXNjcmlwdGlvbj0iVmFsaWRhdGVzIHRoYXQgdGhlIHJlc3BvbnNlIFVSTCBhZnRlciByZWRpcmVjdHMgYXJlIGZvbGxvd2VkIGlzIHRoZSBzYW1lIGFzIHRoZSByZWNvcmRlZCByZXNwb25zZSBVUkwuICBRdWVyeVN0cmluZyBwYXJhbWV0ZXJzIGFyZSBpZ25vcmVkLiIgTGV2ZWw9IkxvdyIgRXhlY3R1aW9uT3JkZXI9IkJlZm9yZURlcGVuZGVudHMiIC8+DQogICAgPFZhbGlkYXRpb25SdWxlIENsYXNzbmFtZT0iTWljcm9zb2Z0LlZpc3VhbFN0dWRpby5UZXN0VG9vbHMuV2ViVGVzdGluZy5SdWxlcy5WYWxpZGF0aW9uUnVsZVJlc3BvbnNlVGltZUdvYWwsIE1pY3Jvc29mdC5WaXN1YWxTdHVkaW8uUXVhbGl0eVRvb2xzLldlYlRlc3RGcmFtZXdvcmssIFZlcnNpb249MTAuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YjAzZjVmN2YxMWQ1MGEzYSIgRGlzcGxheU5hbWU9IlJlc3BvbnNlIFRpbWUgR29hbCIgRGVzY3JpcHRpb249IlZhbGlkYXRlcyB0aGF0IHRoZSByZXNwb25zZSB0aW1lIGZvciB0aGUgcmVxdWVzdCBpcyBsZXNzIHRoYW4gb3IgZXF1YWwgdG8gdGhlIHJlc3BvbnNlIHRpbWUgZ29hbCBhcyBzcGVjaWZpZWQgb24gdGhlIHJlcXVlc3QuICBSZXNwb25zZSB0aW1lIGdvYWxzIG9mIHplcm8gd2lsbCBiZSBpZ25vcmVkLiIgTGV2ZWw9IkxvdyIgRXhlY3R1aW9uT3JkZXI9IkFmdGVyRGVwZW5kZW50cyI+DQogICAgICA8UnVsZVBhcmFtZXRlcnM+DQogICAgICAgIDxSdWxlUGFyYW1ldGVyIE5hbWU9IlRvbGVyYW5jZSIgVmFsdWU9IjAiIC8+DQogICAgICA8L1J1bGVQYXJhbWV0ZXJzPg0KICAgIDwvVmFsaWRhdGlvblJ1bGU+DQogIDwvVmFsaWRhdGlvblJ1bGVzPg0KPC9XZWJUZXN0Pg==">
+      <Execution id="488f1d1b-7155-4c7c-ad56-58e67652dd37" />
+    </WebTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="97e1b960-f79f-4ce6-9c8c-94713ca7c47e" executionId="488f1d1b-7155-4c7c-ad56-58e67652dd37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <WebTestResult executionId="488f1d1b-7155-4c7c-ad56-58e67652dd37" testId="97e1b960-f79f-4ce6-9c8c-94713ca7c47e" testName="UsingWallySupport" computerName="ANDREW-SNUPI" duration="00:00:01.8688375" startTime="2014-07-14T11:32:09.2187890-07:00" endTime="2014-07-14T11:32:21.6586741-07:00" testType="4e7599fa-5ecb-43e9-a887-cd63cf72d207" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="488f1d1b-7155-4c7c-ad56-58e67652dd37">
+      <ResultFiles>
+        <ResultFile path="UsingWallySupport.webtestResult" />
+      </ResultFiles>
+      <TestSettings name="Local" id="44b1e147-3379-4fed-b2d5-a247480be46e">
+        <Description>These are default test settings for a local test run.</Description>
+        <Execution>
+          <TestTypeSpecific>
+            <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+              <Browser name="Internet Explorer 9.0" MaxConnections="6">
+                <Headers>
+                  <Header name="User-Agent" value="Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)" />
+                  <Header name="Accept" value="*/*" />
+                  <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+                  <Header name="Accept-Encoding" value="GZIP" />
+                </Headers>
+              </Browser>
+            </WebTestRunConfiguration>
+          </TestTypeSpecific>
+          <AgentRule name="Execution Agents">
+          </AgentRule>
+        </Execution>
+        <Deployment runDeploymentRoot="Andy_ANDREW-SNUPI 2014-07-14 11_32_08" />
+        <Properties />
+      </TestSettings>
+      <WebTestResultFilePath>Andy_ANDREW-SNUPI 2014-07-14 11_32_08\In\488f1d1b-7155-4c7c-ad56-58e67652dd37\UsingWallySupport.webtestResult</WebTestResultFilePath>
+    </WebTestResult>
+  </Results>
+</TestRun>

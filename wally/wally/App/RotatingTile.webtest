@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="75657612-0eef-45fa-af6a-c76edfeb4a17" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.27ca523d-b633-48fc-aa5a-c7c48774127c.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="88f31e28-f7a5-476c-ace1-99dc7f487e11" Version="1.1" Url="https://testing.wallyhome.com/my/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="051463c0-186b-4a65-8dd9-025503b2a315" Version="1.1" Url="https://testing.snsr.net/v2/seed/appliances" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="04660203-6191-4cf3-98bd-6aa67fc99721" Version="1.1" Url="https://testing.snsr.net/v2/seed/floors" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a4843f4e-e483-4211-a659-b8b0b6c8e12d" Version="1.1" Url="https://testing.snsr.net/v2/seed/rooms" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+      </Headers>
+    </Request>
+    <Request Method="OPTIONS" Guid="212f88da-e078-4d59-8d86-a95f512e2d7b" Version="1.1" Url="https://testing.snsr.net/v2/token" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="POST" Guid="6ba5568d-7c86-411f-a75e-e04fa60865c4" Version="1.1" Url="https://testing.snsr.net/v2/token" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+      </Headers>
+      <StringHttpBody ContentType="application/json" InsertByteOrderMark="False">ewAiAGEAYwBjAG8AdQBuAHQASQBkACIAOgAiAGEAbgBkAHIAZQB3AEAAcwBuAHUAcABpAC4AYwBvAG0AIgAsACIAcABhAHMAcwB3AG8AcgBkACIAOgAiAHMAbgB1AHAAaQB0AGUAcwB0ACIAfQA=</StringHttpBody>
+    </Request>
+    <Request Method="OPTIONS" Guid="1dea285b-f961-4ed5-867b-24a664e419d9" Version="1.1" Url="https://testing.snsr.net/v2/accounts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="8a90ca9b-78f2-45c9-ac46-7ee2e320ace1" Version="1.1" Url="https://testing.snsr.net/v2/accounts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="OPTIONS" Guid="92528ba7-3fe3-4877-8a45-f3c3bb061b8d" Version="1.1" Url="https://testing.snsr.net/v2/places" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="8bdf08bd-c221-4b31-a80d-304d8797b6c1" Version="1.1" Url="https://testing.snsr.net/v2/places" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="OPTIONS" Guid="3e678d8a-30f6-49aa-a943-c69d40f9d9e8" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/contacts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="OPTIONS" Guid="0dd9a42c-cd97-450b-a46d-d83b6d69156d" Version="1.1" Url="https://testing.snsr.net/v2/places/53bb19a0e4b0c31bb4a9b55f/contacts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="55a7ef73-6221-4274-ac1c-7e8079162f61" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/contacts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="4294e4a2-5216-4b05-8b9c-65d535b00595" Version="1.1" Url="https://testing.snsr.net/v2/places/53bb19a0e4b0c31bb4a9b55f/contacts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="OPTIONS" Guid="e00e6672-4cea-4881-b667-d4be16b15649" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/gateways" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="OPTIONS" Guid="2b65db20-bb6d-422d-aad7-507733716559" Version="1.1" Url="https://testing.snsr.net/v2/places/53bb19a0e4b0c31bb4a9b55f/gateways" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="d449a52f-c2a0-410b-8b14-9c98fe3c9c5e" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/gateways" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e1883cdc-8e57-40c9-9386-dd40b896f524" Version="1.1" Url="https://testing.snsr.net/v2/places/53bb19a0e4b0c31bb4a9b55f/gateways" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="OPTIONS" Guid="ae08b301-553f-47b6-acff-04a64961247f" Version="1.1" Url="https://testing.snsr.net/v2/places/53bb19a0e4b0c31bb4a9b55f/sensors" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="OPTIONS" Guid="db974bca-4c72-4f7a-bf53-c012c9ee4af0" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/sensors" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="9eff769c-052f-4a82-9b3a-e00902326520" Version="1.1" Url="https://testing.snsr.net/v2/places/53bb19a0e4b0c31bb4a9b55f/sensors" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f42e75fa-d3f6-4d22-9581-7e819f9685f4" Version="1.1" Url="https://testing.wallyhome.com/my/" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://testing.wallyhome.com/my/#" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="791ec940-9be2-41d5-8fcc-760ef6ccc5b5" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/sensors" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="023fd66a-10d9-42ff-b267-23a8095fac7f" Version="1.1" Url="https://testing.wallyhome.com/my/resources/fonts/wally/wally-c00e6eb63b1214321de69fbdb7946c80.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="e7e9e18a-f027-4ff2-a86b-fc31a6d70d5d" Version="1.1" Url="https://testing.wallyhome.com/my/resources/fonts/wally/wally-c00e6eb63b1214321de69fbdb7946c80.eot" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="OPTIONS" Guid="6285baa2-1c61-47cf-8206-9c712c4c1553" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/weather" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="9714d53b-14ec-46f4-a608-1e018171f865" Version="1.1" Url="https://testing.snsr.net/v2/accounts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/#" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="acad2777-f0c3-41c7-a29b-36aa89c2636b" Version="1.1" Url="https://testing.snsr.net/v2/places" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/#" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="66218127-84d5-406c-b4a3-9e358894a122" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/weather" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/#" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="bf15e6c2-86ab-498d-9320-fb2dff929fce" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/contacts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/#" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="616ab30a-2fdf-4105-93f4-92f1bb1321b3" Version="1.1" Url="https://testing.snsr.net/v2/places/53bb19a0e4b0c31bb4a9b55f/contacts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/#" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0e27f437-319c-4c77-9c34-6bc1bdcd82be" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/gateways" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/#" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="6fca1836-a943-4b2b-9149-e2ad7181f180" Version="1.1" Url="https://testing.snsr.net/v2/places/53bb19a0e4b0c31bb4a9b55f/gateways" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/#" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="d854d86f-e5cc-4ee3-a820-4a51836c8d96" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/sensors" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/#" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="12b5c24e-5111-40ee-8990-9dfcde92d13d" Version="1.1" Url="https://testing.snsr.net/v2/places/53bb19a0e4b0c31bb4a9b55f/sensors" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/#" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="adb281e7-d76f-4e16-b6bf-894323268224" Version="1.1" Url="https://testing.snsr.net/v2/places/53617c75e4b0acab95f0717b/weather" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/#" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="6e9dc553-3406-443c-a67a-181fc8e6444b" Version="1.1" Url="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-69&amp;field=humidity&amp;type=day" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="a42db911-f522-436e-af3d-f948a178bfce" Version="1.1" Url="https://testing.snsr.net/v2/accounts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-69&amp;field=humidity&amp;type=day" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="OPTIONS" Guid="53936960-f1e5-4ef6-b7c7-e5f9b5e7de31" Version="1.1" Url="https://testing.snsr.net/v2/sensors/90-7a-f1-ff-fd-69/state" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="type" Value="RH" RecordedValue="RH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="from" Value="1404853200000" RecordedValue="1404853200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="interval" Value="7200000" RecordedValue="7200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="a6c0d7dd-5c0b-4d62-b912-a26931e6673e" Version="1.1" Url="https://testing.snsr.net/v2/sensors/90-7a-f1-ff-fd-69/state" ThinkTime="6" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-69&amp;field=humidity&amp;type=day" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="type" Value="RH" RecordedValue="RH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="from" Value="1404853200000" RecordedValue="1404853200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="interval" Value="7200000" RecordedValue="7200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="5b3a78a7-1798-40d9-9b9b-4510257b1091" Version="1.1" Url="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-69&amp;field=temperature&amp;type=day" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="37b37f5b-a18b-4c9f-a697-f9cf36af70cf" Version="1.1" Url="https://testing.snsr.net/v2/accounts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-69&amp;field=temperature&amp;type=day" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="OPTIONS" Guid="09b3371f-6d73-4256-8f84-03365d1ee237" Version="1.1" Url="https://testing.snsr.net/v2/sensors/90-7a-f1-ff-fd-69/state" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="type" Value="TEMP" RecordedValue="TEMP" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="from" Value="1404853200000" RecordedValue="1404853200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="interval" Value="7200000" RecordedValue="7200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="d36c80d7-80a5-43e7-b807-907600e082d0" Version="1.1" Url="https://testing.snsr.net/v2/sensors/90-7a-f1-ff-fd-69/state" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-69&amp;field=temperature&amp;type=day" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="type" Value="TEMP" RecordedValue="TEMP" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="from" Value="1404853200000" RecordedValue="1404853200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="interval" Value="7200000" RecordedValue="7200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f1ccafb0-9390-4092-a95c-d5b126e9ab5d" Version="1.1" Url="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-b5&amp;field=humidity&amp;type=day" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ab62cb75-ef0a-4b40-9add-a88994ece44c" Version="1.1" Url="https://testing.snsr.net/v2/accounts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-b5&amp;field=humidity&amp;type=day" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="OPTIONS" Guid="3f78fbc6-d6b3-4c33-90c4-6736b99c3440" Version="1.1" Url="https://testing.snsr.net/v2/sensors/90-7a-f1-ff-fd-b5/state" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="type" Value="RH" RecordedValue="RH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="from" Value="1404853200000" RecordedValue="1404853200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="interval" Value="7200000" RecordedValue="7200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="6fb947d3-42a2-4700-87b8-55e8e6540086" Version="1.1" Url="https://testing.snsr.net/v2/sensors/90-7a-f1-ff-fd-b5/state" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-b5&amp;field=humidity&amp;type=day" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="type" Value="RH" RecordedValue="RH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="from" Value="1404853200000" RecordedValue="1404853200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="interval" Value="7200000" RecordedValue="7200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="18ca84aa-fd5b-48bc-bd7f-79c5b402e353" Version="1.1" Url="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-b5&amp;field=temperature&amp;type=day" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="063439f7-929d-4e94-9085-bfabf6a14b06" Version="1.1" Url="https://testing.snsr.net/v2/accounts" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-b5&amp;field=temperature&amp;type=day" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+    </Request>
+    <Request Method="OPTIONS" Guid="b59a4cfc-0133-455f-9b71-45f37df5526d" Version="1.1" Url="https://testing.snsr.net/v2/sensors/90-7a-f1-ff-fd-b5/state" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="type" Value="TEMP" RecordedValue="TEMP" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="from" Value="1404853200000" RecordedValue="1404853200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="interval" Value="7200000" RecordedValue="7200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <StringHttpBody ContentType="" InsertByteOrderMark="False">
+      </StringHttpBody>
+    </Request>
+    <Request Method="GET" Guid="fd67e080-c30c-4a2d-bb15-703b8fa50729" Version="1.1" Url="https://testing.snsr.net/v2/sensors/90-7a-f1-ff-fd-b5/state" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://testing.wallyhome.com/my/sensor-bar-chart-v2.html#snid=90-7a-f1-ff-fd-b5&amp;field=temperature&amp;type=day" />
+        <Header Name="Authorization" Value="Bearer 39d13726-ad00-482f-899a-ddc17b918dc6" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="type" Value="TEMP" RecordedValue="TEMP" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="from" Value="1404853200000" RecordedValue="1404853200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="interval" Value="7200000" RecordedValue="7200000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

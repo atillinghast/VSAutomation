@@ -1,0 +1,992 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="7cb2309f-bd3a-4bdd-8977-ae680060b0d6" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.8224e479-abe5-4426-8499-50a3c49604c3.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="20a41dab-4eca-4deb-b32d-9b3d74052625" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DN1024exVSRM" RecordedValue="http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DN1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="src" Value="IE-Address" RecordedValue="IE-Address" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="26" RecordedValue="26" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="260" RecordedValue="260" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IE8SSC" RecordedValue="IE8SSC" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="6de3d221-6bd6-411e-bfeb-a849e2152d52" Version="1.1" Url="http://api.bing.com/qsml.aspx" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="query" Value="http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DN1024exVSRM" RecordedValue="http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DN1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="src" Value="IE-Address" RecordedValue="IE-Address" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="maxwidth" Value="32765" RecordedValue="32765" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rowheight" Value="26" RecordedValue="26" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sectionHeight" Value="260" RecordedValue="260" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="FORM" Value="IE8SSC" RecordedValue="IE8SSC" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="market" Value="en-US" RecordedValue="en-US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="d3d34b06-5d48-4489-b0df-a92f1c0e8fca" Version="1.1" Url="http://www.youtube.com/watch" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="a6bfbeec-37c7-4085-ad21-d73f1c2f1849" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/crossdomain.xml" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="45426c76-a60f-4f2c-9472-391356c2df3a" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/generate_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="bde5a1f9-a2c8-4297-9ec5-809dd087dbfe" Version="1.1" Url="http://s.youtube.com/stream_204" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="event" Value="streamingstats" RecordedValue="streamingstats" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fmt" Value="135" RecordedValue="135" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ei" Value="plfAU-qzG9Ln-QOf2YKQDQ" RecordedValue="plfAU-qzG9Ln-QOf2YKQDQ" CorrelationBinding="{{QueryStringParam4.ei}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="el" Value="detailpage" RecordedValue="detailpage" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="docid" Value="N1024exVSRM" RecordedValue="N1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ns" Value="yt" RecordedValue="yt" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="html5" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cbr" Value="IE" RecordedValue="IE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cbrver" Value="11.0" RecordedValue="11.0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cos" Value="Windows" RecordedValue="Windows" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cosver" Value="6.3" RecordedValue="6.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="vps" Value="0.000:N,0.043:N" RecordedValue="0.000:N,0.043:N" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="vfs" Value="0.043:135:137::i" RecordedValue="0.043:135:137::i" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="bwe" Value="0.043:130000" RecordedValue="0.043:130000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="bh" Value="0.043:0.000" RecordedValue="0.043:0.000" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cmt" Value="0.043:0" RecordedValue="0.043:0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="e9e43d67-fc91-483d-87ba-f4e86b25402e" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="signature" Value="95C97D5F0A3CC517AEEEBC15DD6AD64DE7B88A7F.1770642274CC8E6E7D05F415A33ED9E9A0E64B35" RecordedValue="95C97D5F0A3CC517AEEEBC15DD6AD64DE7B88A7F.1770642274CC8E6E7D05F415A33ED9E9A0E64B35" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="clen" Value="1222908" RecordedValue="1222908" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="itag" Value="140" RecordedValue="140" CorrelationBinding="{{QueryStringParam72.itag}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="lmt" Value="1404074556228880" RecordedValue="1404074556228880" CorrelationBinding="{{QueryStringParam74.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="dur" Value="76.114" RecordedValue="76.114" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mime" Value="audio%2Fmp4" RecordedValue="audio%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="range" Value="0-65535" RecordedValue="0-65535" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="cf22988a-3584-4312-9416-3433e098409e" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="signature" Value="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" RecordedValue="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="clen" Value="5903312" RecordedValue="5903312" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="itag" Value="135" RecordedValue="135" CorrelationBinding="{{QueryStringParam152.itag}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="lmt" Value="1404074572441097" RecordedValue="1404074572441097" CorrelationBinding="{{QueryStringParam154.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="dur" Value="75.933" RecordedValue="75.933" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="mime" Value="video%2Fmp4" RecordedValue="video%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="range" Value="0-191467" RecordedValue="0-191467" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam4.ei" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;ei=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam72.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="15" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam74.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="15" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam152.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam154.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam232.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam234.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam312.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="15" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam314.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="15" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam392.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam394.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam472.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="15" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam474.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="15" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam552.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam554.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam632.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam634.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam712.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="15" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam714.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="15" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam792.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam794.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam872.itag" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026itag=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="15" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam874.lmt" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026lmt=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="15" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam946.ei" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;ei=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam959.hl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="\u0026hl=" />
+            <RuleParameter Name="EndsWith" Value="\" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1014.ei" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;ei=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1058.ei" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;amp;ei=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1143.hl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?hl=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1387.v" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?v=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.session_token" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="N': &quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot;,&#xA;  " />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="v" Value="N1024exVSRM" RecordedValue="N1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="eca78be1-f628-4054-9aac-4e2a9f503fbd" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="signature" Value="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" RecordedValue="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clen" Value="5903312" RecordedValue="5903312" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="itag" Value="135" RecordedValue="135" CorrelationBinding="{{QueryStringParam232.itag}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lmt" Value="1404074572441097" RecordedValue="1404074572441097" CorrelationBinding="{{QueryStringParam234.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dur" Value="75.933" RecordedValue="75.933" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mime" Value="video%2Fmp4" RecordedValue="video%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="range" Value="191468-382935" RecordedValue="191468-382935" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="6925548a-3781-4b7c-9321-daae3fc1b254" Version="1.1" Url="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.ZQr08mMOyEQ.O/m=card,gapi_iframes/rt=j/sv=1/d=1/ed=1/rs=AItRSTNFlraBrjkV5aQW9uTj_6QHaoO_0A/cb=gapi.loaded_0" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b580722d-6328-46c9-8702-c3a9a2af950d" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="signature" Value="95C97D5F0A3CC517AEEEBC15DD6AD64DE7B88A7F.1770642274CC8E6E7D05F415A33ED9E9A0E64B35" RecordedValue="95C97D5F0A3CC517AEEEBC15DD6AD64DE7B88A7F.1770642274CC8E6E7D05F415A33ED9E9A0E64B35" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clen" Value="1222908" RecordedValue="1222908" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="itag" Value="140" RecordedValue="140" CorrelationBinding="{{QueryStringParam312.itag}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lmt" Value="1404074556228880" RecordedValue="1404074556228880" CorrelationBinding="{{QueryStringParam314.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dur" Value="76.114" RecordedValue="76.114" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mime" Value="audio%2Fmp4" RecordedValue="audio%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="range" Value="65536-131071" RecordedValue="65536-131071" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="1b832923-257f-46b1-8bb2-71b4c252609f" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="signature" Value="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" RecordedValue="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clen" Value="5903312" RecordedValue="5903312" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="itag" Value="135" RecordedValue="135" CorrelationBinding="{{QueryStringParam392.itag}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lmt" Value="1404074572441097" RecordedValue="1404074572441097" CorrelationBinding="{{QueryStringParam394.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dur" Value="75.933" RecordedValue="75.933" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mime" Value="video%2Fmp4" RecordedValue="video%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="range" Value="382936-662521" RecordedValue="382936-662521" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="6e344ab3-9b33-4179-93b0-ed989622c88e" Version="1.1" Url="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.ZQr08mMOyEQ.O/m=gapi_iframes_style_slide_menu/exm=card,gapi_iframes/rt=j/sv=1/d=1/ed=1/rs=AItRSTNFlraBrjkV5aQW9uTj_6QHaoO_0A/cb=gapi.loaded_1" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="7811666f-0c78-4538-98dc-380ea5f2b956" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="signature" Value="95C97D5F0A3CC517AEEEBC15DD6AD64DE7B88A7F.1770642274CC8E6E7D05F415A33ED9E9A0E64B35" RecordedValue="95C97D5F0A3CC517AEEEBC15DD6AD64DE7B88A7F.1770642274CC8E6E7D05F415A33ED9E9A0E64B35" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clen" Value="1222908" RecordedValue="1222908" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="itag" Value="140" RecordedValue="140" CorrelationBinding="{{QueryStringParam472.itag}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lmt" Value="1404074556228880" RecordedValue="1404074556228880" CorrelationBinding="{{QueryStringParam474.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dur" Value="76.114" RecordedValue="76.114" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mime" Value="audio%2Fmp4" RecordedValue="audio%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="range" Value="131072-262003" RecordedValue="131072-262003" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="3532f06b-f3cc-4a17-80e6-a91eb89ca3d2" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="signature" Value="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" RecordedValue="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clen" Value="5903312" RecordedValue="5903312" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="itag" Value="135" RecordedValue="135" CorrelationBinding="{{QueryStringParam552.itag}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lmt" Value="1404074572441097" RecordedValue="1404074572441097" CorrelationBinding="{{QueryStringParam554.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dur" Value="75.933" RecordedValue="75.933" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mime" Value="video%2Fmp4" RecordedValue="video%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="range" Value="662522-1262360" RecordedValue="662522-1262360" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="7a1f46bb-b376-4a54-9c4a-ef67d1afc479" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="signature" Value="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" RecordedValue="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clen" Value="5903312" RecordedValue="5903312" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="itag" Value="135" RecordedValue="135" CorrelationBinding="{{QueryStringParam632.itag}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lmt" Value="1404074572441097" RecordedValue="1404074572441097" CorrelationBinding="{{QueryStringParam634.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dur" Value="75.933" RecordedValue="75.933" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mime" Value="video%2Fmp4" RecordedValue="video%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="range" Value="1262361-2393912" RecordedValue="1262361-2393912" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="dc07e0d3-7639-474a-aa90-335572056ff8" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="signature" Value="95C97D5F0A3CC517AEEEBC15DD6AD64DE7B88A7F.1770642274CC8E6E7D05F415A33ED9E9A0E64B35" RecordedValue="95C97D5F0A3CC517AEEEBC15DD6AD64DE7B88A7F.1770642274CC8E6E7D05F415A33ED9E9A0E64B35" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clen" Value="1222908" RecordedValue="1222908" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="itag" Value="140" RecordedValue="140" CorrelationBinding="{{QueryStringParam712.itag}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lmt" Value="1404074556228880" RecordedValue="1404074556228880" CorrelationBinding="{{QueryStringParam714.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dur" Value="76.114" RecordedValue="76.114" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mime" Value="audio%2Fmp4" RecordedValue="audio%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="range" Value="262004-482618" RecordedValue="262004-482618" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f48256e3-f78e-492a-8f1c-c1bda399a948" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="signature" Value="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" RecordedValue="E3324F4019EA3A414E678430E7096E004B55B884.69AB951217B3921EF4B0DFC4E1237F2491F464F3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clen" Value="5903312" RecordedValue="5903312" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="itag" Value="135" RecordedValue="135" CorrelationBinding="{{QueryStringParam792.itag}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lmt" Value="1404074572441097" RecordedValue="1404074572441097" CorrelationBinding="{{QueryStringParam794.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dur" Value="75.933" RecordedValue="75.933" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mime" Value="video%2Fmp4" RecordedValue="video%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="range" Value="2393913-4295014" RecordedValue="2393913-4295014" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4d43be16-fd48-4cbf-91fc-ec7edcbade7b" Version="1.1" Url="http://r1---sn-nx57ynes.googlevideo.com/videoplayback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="signature" Value="95C97D5F0A3CC517AEEEBC15DD6AD64DE7B88A7F.1770642274CC8E6E7D05F415A33ED9E9A0E64B35" RecordedValue="95C97D5F0A3CC517AEEEBC15DD6AD64DE7B88A7F.1770642274CC8E6E7D05F415A33ED9E9A0E64B35" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="key" Value="yt5" RecordedValue="yt5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="id" Value="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" RecordedValue="o-AFV6wWFne-6H_rSeMA4D-OnU92mguJpqSlWhhpljLgBH" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ipbits" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mws" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="gir" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sver" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="clen" Value="1222908" RecordedValue="1222908" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="expire" Value="1405137600" RecordedValue="1405137600" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sparams" Value="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" RecordedValue="clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ip" Value="128.208.59.244" RecordedValue="128.208.59.244" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="upn" Value="nfT0DzxH3rU" RecordedValue="nfT0DzxH3rU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="itag" Value="140" RecordedValue="140" CorrelationBinding="{{QueryStringParam872.itag}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ms" Value="au" RecordedValue="au" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lmt" Value="1404074556228880" RecordedValue="1404074556228880" CorrelationBinding="{{QueryStringParam874.lmt}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mv" Value="m" RecordedValue="m" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dur" Value="76.114" RecordedValue="76.114" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="source" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mt" Value="1405114134" RecordedValue="1405114134" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="alr" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ratebypass" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mime" Value="audio%2Fmp4" RecordedValue="audio%2Fmp4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="range" Value="482619-804117" RecordedValue="482619-804117" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="keepalive" Value="yes" RecordedValue="yes" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="7bce411d-47f0-4a93-b245-fb3133893f6a" Version="1.1" Url="http://s.youtube.com/api/stats/playback" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ns" Value="yt" RecordedValue="yt" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="el" Value="detailpage" RecordedValue="detailpage" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="docid" Value="N1024exVSRM" RecordedValue="N1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ver" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cmt" Value="0.047" RecordedValue="0.047" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="plid" Value="AAT98alvzzfPmWt1" RecordedValue="AAT98alvzzfPmWt1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ei" Value="plfAU-qzG9Ln-QOf2YKQDQ" RecordedValue="plfAU-qzG9Ln-QOf2YKQDQ" CorrelationBinding="{{QueryStringParam946.ei}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="135" RecordedValue="135" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fs" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rt" Value="0.952" RecordedValue="0.952" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="c" Value="WEB" RecordedValue="WEB" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cver" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lact" Value="347" RecordedValue="347" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cbr" Value="IE" RecordedValue="IE" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cbrver" Value="11.0" RecordedValue="11.0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cos" Value="Windows" RecordedValue="Windows" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cosver" Value="6.3" RecordedValue="6.3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="mos" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="volume" Value="100" RecordedValue="100" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="hl" Value="en_US" RecordedValue="en_US" CorrelationBinding="{{QueryStringParam959.hl}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cr" Value="US" RecordedValue="US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="len" Value="76" RecordedValue="76" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fexp" Value="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" RecordedValue="902408%2C923345%2C924213%2C924217%2C924222%2C924622%2C930008%2C931330%2C934024%2C934030%2C936927%2C943111%2C944403%2C945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rtn" Value="7" RecordedValue="7" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="a39d9b86-7cee-4bf9-a3d8-4053db208842" Version="1.1" Url="http://www.youtube.com/ptracking" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="html5" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="video_id" Value="N1024exVSRM" RecordedValue="N1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="plid" Value="AAT98alvzzfPmWt1" RecordedValue="AAT98alvzzfPmWt1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ei" Value="plfAU-qzG9Ln-QOf2YKQDQ" RecordedValue="plfAU-qzG9Ln-QOf2YKQDQ" CorrelationBinding="{{QueryStringParam1014.ei}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ptk" Value="youtube_none" RecordedValue="youtube_none" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pltype" Value="contentugc" RecordedValue="contentugc" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="dca23ca8-c112-492e-a7ef-d8a2fa7c02e6" Version="1.1" Url="http://www.youtube.com/get_video" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="noflv" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="video_id" Value="N1024exVSRM" RecordedValue="N1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="el" Value="detailpage" RecordedValue="detailpage" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="" Value="referrer" RecordedValue="referrer" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="135" RecordedValue="135" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ptk" Value="youtube_none" RecordedValue="youtube_none" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="t" Value="vjVQa1PpcFPdeGepBEJqkgzcPgTzOZ0bzjo5mMzyEHg%3D" RecordedValue="vjVQa1PpcFPdeGepBEJqkgzcPgTzOZ0bzjo5mMzyEHg%3D" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="4eab2b07-de3b-43fe-8bd7-a70dab49a3be" Version="1.1" Url="http://googleads.g.doubleclick.net/pagead/html/r20140708/r20140417/zrt_lookup.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="126b6825-904b-4828-baaa-6d7330aec1e4" Version="1.1" Url="http://csi.gstatic.com/csi" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="v" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="s" Value="youtube" RecordedValue="youtube" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="action" Value="watch,watch7_html5" RecordedValue="watch,watch7_html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="h5jse" Value="67" RecordedValue="67" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="docid" Value="N1024exVSRM" RecordedValue="N1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ei" Value="plfAU-qzG9Ln-QOf2YKQDQ" RecordedValue="plfAU-qzG9Ln-QOf2YKQDQ" CorrelationBinding="{{QueryStringParam1058.ei}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cpn" Value="utIOY9VHrERAnr11" RecordedValue="utIOY9VHrERAnr11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fmt" Value="135" RecordedValue="135" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tds" Value="50" RecordedValue="50" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cmt" Value="0.045" RecordedValue="0.045" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yt_vis" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yt_pt" Value="html5" RecordedValue="html5" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="e" Value="902408,923345,924213,924217,924222,924622,930008,931330,934024,934030,936927,943111,944403,945305" RecordedValue="902408,923345,924213,924217,924222,924622,930008,931330,934024,934030,936927,943111,944403,945305" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yt_li" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yt_lt" Value="cold" RecordedValue="cold" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yt_ad" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yt_spf" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="yt_pl" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="srt" Value="41" RecordedValue="41" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rt" Value="ce.98,pe.223,cl.236,cfg.238,fs.357,hr.547,gv.355,je.561,jl.563,ol.612,jsp.714,fvb.620,1pb.1134,l2s.1134,vfp.1135,plev.1197,pbs.1201,msa.598,vda.716,vri.620,vdns.620,vreq.620,vrc.625,ari.615,adns.615,areq.615,fab.615,arc.620,aft.1201,fpt.636" RecordedValue="ce.98,pe.223,cl.236,cfg.238,fs.357,hr.547,gv.355,je.561,jl.563,ol.612,jsp.714,fvb.620,1pb.1134,l2s.1134,vfp.1135,plev.1197,pbs.1201,msa.598,vda.716,vri.620,vdns.620,vreq.620,vrc.625,ari.615,adns.615,areq.615,fab.615,arc.620,aft.1201,fpt.636" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="it" Value="st.99,rcv_.108" RecordedValue="st.99,rcv_.108" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="cbf17c13-f6ba-439e-a8a7-a49bea675079" Version="1.1" Url="http://googleads.g.doubleclick.net/pagead/ads" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ad_block" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="client" Value="ca-pub-6219811747049371" RecordedValue="ca-pub-6219811747049371" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="output" Value="js" RecordedValue="js" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="adk" Value="511001906" RecordedValue="511001906" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="num_ads" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="channel" Value="PyvWatchInRelated%2BPyvYTWatch%2BPyvWatchNoAdX%2Blpw%2Bafv_ugc%2Byt_no_cp%2Bafv_user_id_3m-8AwwbUu-R-exUc2U3ew%2Byt_mpvid_AAT98alwB026uJGh%2Byt_no_ap%2Bytdevice_1%2BVertical_3%2BVertical_45" RecordedValue="PyvWatchInRelated%2BPyvYTWatch%2BPyvWatchNoAdX%2Blpw%2Bafv_ugc%2Byt_no_cp%2Bafv_user_id_3m-8AwwbUu-R-exUc2U3ew%2Byt_mpvid_AAT98alwB026uJGh%2Byt_no_ap%2Bytdevice_1%2BVertical_3%2BVertical_45" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ad_type" Value="text" RecordedValue="text" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ea" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="flash" Value="14.0.0" RecordedValue="14.0.0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="hl" Value="en" RecordedValue="en" CorrelationBinding="{{QueryStringParam1143.hl}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="url" Value="http%3A%2F%2Fwww.youtube.com%2Fvideo%2FN1024exVSRM" RecordedValue="http%3A%2F%2Fwww.youtube.com%2Fvideo%2FN1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="video_doc_id" Value="yt_N1024exVSRM" RecordedValue="yt_N1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="lact" Value="-1" RecordedValue="-1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pyv" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dt" Value="1405114275614" RecordedValue="1405114275614" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="bdt" Value="M" RecordedValue="M" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="shv" Value="r20140708" RecordedValue="r20140708" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="cbv" Value="r20140417" RecordedValue="r20140417" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="saldr" Value="sb" RecordedValue="sb" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="correlator" Value="1405114275666" RecordedValue="1405114275666" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frm" Value="23" RecordedValue="23" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ga_vid" Value="1310398133.1405114276" RecordedValue="1310398133.1405114276" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ga_sid" Value="1405114276" RecordedValue="1405114276" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ga_hid" Value="398232910" RecordedValue="398232910" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ga_fc" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_tz" Value="-420" RecordedValue="-420" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_his" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_java" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_h" Value="1080" RecordedValue="1080" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_w" Value="1920" RecordedValue="1920" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_ah" Value="1032" RecordedValue="1032" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_aw" Value="1920" RecordedValue="1920" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_cd" Value="24" RecordedValue="24" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nplug" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="u_nmime" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dff" Value="times%20new%20roman" RecordedValue="times%20new%20roman" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dfs" Value="16" RecordedValue="16" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="biw" Value="948" RecordedValue="948" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="bih" Value="679" RecordedValue="679" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="isw" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ish" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ifk" Value="305822666" RecordedValue="305822666" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="eid" Value="317150304%2C36098800" RecordedValue="317150304%2C36098800" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="oid" Value="3" RecordedValue="3" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="loc" Value="EMPTY" RecordedValue="EMPTY" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="top" Value="http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DN1024exVSRM" RecordedValue="http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DN1024exVSRM" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="rx" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="eae" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fc" Value="8" RecordedValue="8" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="docm" Value="11" RecordedValue="11" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="vis" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="abl" Value="XS" RecordedValue="XS" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ppjl" Value="u" RecordedValue="u" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="fu" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ifi" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dtd" Value="74" RecordedValue="74" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="0c46ecaf-87ba-4df8-814f-78e99db462e8" Version="1.1" Url="http://www.youtube.com/pyv" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="video_id" Value="XxgB4Zt_T30" RecordedValue="XxgB4Zt_T30" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="ad_type" Value="watch_related" RecordedValue="watch_related" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="headline" Value="You%20Need%20To%20See%20This" RecordedValue="You%20Need%20To%20See%20This" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="image_url" Value="http%3A%2F%2Fi2.ytimg.com%2Fvi%2FXxgB4Zt_T30%2Fdefault.jpg" RecordedValue="http%3A%2F%2Fi2.ytimg.com%2Fvi%2FXxgB4Zt_T30%2Fdefault.jpg" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="description1" Value="America's%20Worst%20Scams" RecordedValue="America's%20Worst%20Scams" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="description2" Value="Revealed%20To%20You" RecordedValue="Revealed%20To%20You" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="channel_title" Value="buzzquote" RecordedValue="buzzquote" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="visible_url" Value="youtube.com%2Fbuzzquote" RecordedValue="youtube.com%2Fbuzzquote" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="POST" Guid="7b800a89-9a38-4d19-8e8e-04adb255df0b" Version="1.1" Url="http://www.youtube.com/watch_fragments_ajax" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://www.youtube.com/watch?v=N1024exVSRM" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="v" Value="N1024exVSRM" RecordedValue="N1024exVSRM" CorrelationBinding="{{QueryStringParam1387.v}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="tr" Value="time" RecordedValue="time" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="frags" Value="guide" RecordedValue="guide" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="spf" Value="load" RecordedValue="load" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="session_token" Value="QUFFLUhqbnNpX1VkclFEMHkxYmVUN1dzakVjMW0zMVp3UXxBQ3Jtc0tsdERjWklUN2VvazNMNTlmd3RSTVhEOTFWeE9fTmRzTDBibHpBenNqanB0T1hJVUJHWFZaM1phOXUzTTVGZWpyWFNYa2FJTHN3Unc0VGRfNllqbEVhc01iakZVQVRYVFNQUEV1T2RwOGZ6TUdvbW44b2xRT0VkZFlTQ3RYamw4TXFicWxXVGRWaWVPazlDVThvYWlkR3RPQV9zWVE=" RecordedValue="QUFFLUhqbnNpX1VkclFEMHkxYmVUN1dzakVjMW0zMVp3UXxBQ3Jtc0tsdERjWklUN2VvazNMNTlmd3RSTVhEOTFWeE9fTmRzTDBibHpBenNqanB0T1hJVUJHWFZaM1phOXUzTTVGZWpyWFNYa2FJTHN3Unc0VGRfNllqbEVhc01iakZVQVRYVFNQUEV1T2RwOGZ6TUdvbW44b2xRT0VkZFlTQ3RYamw4TXFicWxXVGRWaWVPazlDVThvYWlkR3RPQV9zWVE=" CorrelationBinding="{{FormPostParam1.session_token}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
